@@ -40,7 +40,15 @@ export const projectList = [
         id: 2,
         img: personal_website,
         title: "Personal Website",
-        description: "my own personal website",
+        description: "My personal website, where I showcase my experience, past projects, and share insights about myself.",
+        features: [
+            "Used Tailwind css for styles",
+            "Created cool animations with Framer Motion"
+        ],
+        skills: [
+            "React", "JavaScript", "Framer Motion", "Tailwind css"
+        ],
+        url: "https://github.com/dannyd2083/personal_website"
     },
     {
         id: 3,

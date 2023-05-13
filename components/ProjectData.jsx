@@ -3,6 +3,9 @@ import personal_website from "/public/personal_website.png"
 import pubAndFrog from  "/public/PubsAndFrog.png"
 import locative from "/public/Locative.png"
 import frens from  "/public/Frens.png"
+import search from  "/public/Search Engine Logo.jpg"
+import student from "/public/student-management.png"
+import mythos from  "/public/Mythos.jpg"
 export const projectList = [
     {
         id: 0,
@@ -70,9 +73,9 @@ export const projectList = [
     },
     {
         id: 4,
-        img: testImage,
+        img: search,
         title: "Insight UBC Search Engine",
-        description: "A search engine that can effectively query the metadata such as past course averages and room capacity from around campus",
+        description: "Course project from CPSC 310 Introduction to Software Engineering. A search engine that can effectively query the metadata such as past course averages and room capacity from around campus",
         features: [
             "Implemented the functions that check if a received query is in the correct EBNF from",
             "Built the functions that prepares data result with corresponding query request",
@@ -82,5 +85,35 @@ export const projectList = [
           " TypeScript", "JavaScript"
         ],
         url: null
-    }
+    },
+    {
+        id: 5,
+        img: mythos,
+        title: "Mythos",
+        description: "(The progress of this project was halted as some teammates graduated or became occupied with other commitments, such as pursuing medical school.) Mythos is a 2D platform game follows a young teen and his journey to his parents' house taking a" +
+            "misfortunate detour into a fragment multiverse",
+        features: [
+            "Designed original art assets",
+            "Participated building the magic system and implemented the functionally of magic swapping UI",
+            "Implemented one of the enemies' movements "
+        ],
+        skills: [
+            "Unity", "C#"
+        ],
+        url: null
+    },
+    {
+        id: 6,
+        img: student,
+        title: "Simple Student Management System",
+        description: "Course project from CPSC 210 Software Construction.An information storage system on students, professors and courses.",
+        features: [
+            "All information was stored in text files as JSON objects and can be re-read later",
+            "Designed and build UI with JavaFX Scene Builder",
+        ],
+        skills: [
+           "Java","JavaFX","JSON"
+        ],
+        url: "https://github.com/dannyd2083/student-management-system"
+    },
 ]

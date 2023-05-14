@@ -106,7 +106,7 @@ export const projectList = [
         id: 6,
         img: student,
         title: "Simple Student Management System",
-        description: "Course project from CPSC 210 Software Construction.An information storage system on students, professors and courses.",
+        description: "Course project from CPSC 210 Software Construction. An information storage system on students, professors and courses.",
         features: [
             "All information was stored in text files as JSON objects and can be re-read later",
             "Designed and build UI with JavaFX Scene Builder",

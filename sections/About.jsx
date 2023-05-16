@@ -7,7 +7,7 @@ const About = () => {
             <a id = "about" className="anchor"></a>
             <div  className=" grid lg:grid-cols-2 gap-12 items-center max-w-[1440px] mx-auto min-h-screen">
                 <div className="mx-10 mt-12 lg:mt-0">
-                    <img src="/profile.JPG" alt="profile" className="w-auto h-auto"/>
+                    <img src="/profile.jpg" alt="profile" className="w-auto h-auto"/>
                 </div>
                 <div>
                 <h1 className= "text-5xl text-regal-yellow font-AbrilFatface mt-10 mb-10 left-0" > About Me</h1>

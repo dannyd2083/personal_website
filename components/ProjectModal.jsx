@@ -16,7 +16,7 @@ const ProjectModal = ({ selected, setSelected }) => {
             >
                 <div className="bg-white max-w-[1440px] h-auto">
                     <motion.div slayoutId={`card-${selected.id}`}>
-                        <img src="/profile.JPG" alt={"projectPic"} />
+                        <img src="/profile.jpg" alt={"projectPic"} />
                     </motion.div>
                 </div>
             </div>

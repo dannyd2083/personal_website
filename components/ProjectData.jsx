@@ -1,4 +1,4 @@
-import testImage from "/public/profile.JPG"
+import testImage from "/public/profile.jpg"
 import personal_website from "/public/personal_website.png"
 import pubAndFrog from  "/public/PubsAndFrog.png"
 import locative from "/public/Locative.png"

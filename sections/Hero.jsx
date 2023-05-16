@@ -38,7 +38,7 @@ const Hero = () => {
                         <a href = 'https://www.linkedin.com/in/zecheng-danny-deng-316523187/'>
                         <AiFillLinkedin className="mt-5 mr-5 hover:scale-125 ease-in duration-300" color={'#fee715'} size={40}/>
                         </a>
-                        <a href = "/2023resume.pdf">
+                        <a href = "/2023DannyResume.pdf">
                             <AiFillFilePdf className="mt-5 mr-5 hover:scale-125 ease-in duration-300" color={'#fee715'} size={40}/>
                         </a>
                     </div>

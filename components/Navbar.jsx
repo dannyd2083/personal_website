@@ -52,11 +52,6 @@ const Navbar = () => {
                                         Projects
                                     </Link>
                                 </li>
-                                <li className=" text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0   hover:text-regal-yellow hover:border-regal-yellow  md:hover:text-regal-yellow ">
-                                    <Link href="/#skills" onClick={() => setNavbar(!navbar)}>
-                                        Skills
-                                    </Link>
-                                </li>
                             </ul>
                         </div>
                     </div>

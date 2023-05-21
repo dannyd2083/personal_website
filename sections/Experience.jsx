@@ -23,7 +23,7 @@ const Experience = () => {
         ]
     }
     const Bluvec = {
-        title: "Web Develope @ Bluvec Technologies  Inc.",
+        title: "Web Developer @ Bluvec Technologies  Inc.",
         date: "September 2021 – December 2021",
         bulletPoints: [
             "Built the company’ landing page by using company given React template",

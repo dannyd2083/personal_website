@@ -22,7 +22,7 @@ export const projectList = [
         skills: [
             "Unity", "C#"
         ],
-        url: null,
+        url: "https://github.com/dannyd2083/HackTheNorth",
     },
     {
         id: 1,

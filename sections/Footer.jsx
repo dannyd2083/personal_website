@@ -14,7 +14,7 @@ const Footer = () => {
            <a href = 'https://www.linkedin.com/in/zecheng-danny-deng-316523187/'>
                <AiFillLinkedin className="mt-5 mr-5 hover:scale-125 ease-in duration-300" color={'#fee715'} size={60}/>
            </a>
-           <a href = "/2023DannyResume.pdf">
+           <a href = "/dannyResume.pdf">
                <AiFillFilePdf className="mt-5 mr-5 hover:scale-125 ease-in duration-300" color={'#fee715'} size={60}/>
            </a>
            </nav>

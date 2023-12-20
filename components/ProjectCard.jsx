@@ -72,9 +72,11 @@ const ProjectCard = ({setSelected, project}) => {
                                 </div>
                                 <img src={project.img.src} alt="profile" className="rounded-lg p-5"/>
                                 <h1 className="p-4 text-3xl font-AbrilFatface">{project.title}</h1>
-                                {project.url !=null ? (<a href = {project.url} >
+                                {project.url !=null ? (
+                                    <a href = {project.url} >
                                     <AiFillGithub className="ml-5 hover:scale-125 ease-in duration-300" color={'#000000'} size={30}/>
-                                </a>) : (
+                                    </a>
+                                ) : (
                                     <div className= "flex ">
                                     <RxCross2 className="ml-5" color={'#000000'} size={30}></RxCross2>
                                     <p className= "ml-2">no repo because of NDA</p>

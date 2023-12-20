@@ -4,12 +4,30 @@ import pubAndFrog from  "/public/PubsAndFrog.png"
 import locative from "/public/Locative.png"
 import frens from  "/public/Frens.png"
 import search from  "/public/Search Engine Logo.jpg"
-import student from "/public/student-management.png"
 import mythos from  "/public/Mythos.jpg"
 import HTN from  "/public/HTN.png"
+import Egg from "/public/Eggly-Buddy.png"
 export const projectList = [
     {
         id: 0,
+        img: Egg,
+        title: "Eggly Buddy",
+        description: "Developed as part of the CPSC 427 (Video Game Programming) course at the University of British Columbia. Inspired by Tamagotchi, players are entrusted with the delightful task of caring for an Eggly Buddy, nurturing it through various stages of evolution.",
+        features: [
+            "Engineered an interactive feature allowing players to clean up after their pet, integrating it with the game's physics and mechanics.",
+            "Created a bathroom-themed mini-game based on the shell game concept, including implementing the shuffle movement of boxes and user interaction.",
+            "Implemented a visually appealing clean-up effect using shader programming to enhance player engagement.",
+            "Built a parallax background using shaders, contributing to the game's immersive 2D retro aesthetic.",
+            "Utilized the nlohmann/json library for efficient game data management, handling all aspects of data saving and loading in a JSON format."
+        ],
+        skills: [
+            "C++","SDL","Entity Component System (ECS) framework"
+        ],
+        url: "https://github.com/dannyd2083/Eggly-Buddies"
+    },
+    {
+
+        id: 1,
         img: HTN,
         title: "Swag the North",
         description: " Spearheaded the development of an immersive game simulator using Unity, capturing the essence of the event’s\n" +
@@ -25,7 +43,7 @@ export const projectList = [
         url: "https://github.com/dannyd2083/HackTheNorth",
     },
     {
-        id: 1,
+        id: 2,
         img: locative,
         title: "Locative Audio",
         description: "A Geo-based project for Vancouver, which allows users to unlock audio poems inspired by the city's\n" +
@@ -42,7 +60,7 @@ export const projectList = [
         url: null,
     },
     {
-        id: 2,
+        id: 3,
         img: pubAndFrog,
         title: "Pugs Frogs in Space",
         description: "A 2 player top-down shooting game featuring frog and pug characters where players use exploding bullets to kick their opponent out of the arena and win. Made in a 2-day game jam.",
@@ -57,7 +75,7 @@ export const projectList = [
         url:"https://github.com/RyanmLin/Pugs-Frogs-IN-SPACE",
     },
     {
-        id: 3,
+        id: 4,
         img: personal_website,
         title: "Personal Website",
         description: "My personal website, where I showcase my experience, past projects, and share insights about myself.",
@@ -71,7 +89,7 @@ export const projectList = [
         url: "https://github.com/dannyd2083/personal_website"
     },
     {
-        id: 4,
+        id: 5,
         img: frens,
         title: "FREN",
         description: "An app allows members to create a personal profile, later using their input to recommend others with similar\n" +
@@ -89,7 +107,7 @@ export const projectList = [
         url:"https://github.com/mattbekh/frens-app"
     },
     {
-        id: 5,
+        id: 6,
         img: search,
         title: "Insight UBC Search Engine",
         description: "Course project from CPSC 310 Introduction to Software Engineering. A search engine that can effectively query the metadata such as past course averages and room capacity from around campus",
@@ -104,7 +122,7 @@ export const projectList = [
         url: null
     },
     {
-        id: 6,
+        id: 7,
         img: mythos,
         title: "Mythos",
         description: "(The progress of this project was halted as some teammates graduated or became occupied with other commitments, such as pursuing medical school.) Mythos is a 2D platform game follows a young teen and his journey to his parents' house taking a" +
@@ -119,19 +137,6 @@ export const projectList = [
         ],
         url: null
     },
-    {
-        id: 7,
-        img: student,
-        title: "Simple Student Management System",
-        description: "Course project from CPSC 210 Software Construction. An information storage system on students, professors and courses.",
-        features: [
-            "All information was stored in text files as JSON objects and can be re-read later",
-            "Designed and build UI with JavaFX Scene Builder",
-        ],
-        skills: [
-           "Java","JavaFX","JSON"
-        ],
-        url: "https://github.com/dannyd2083/student-management-system"
-    },
+
 
 ]

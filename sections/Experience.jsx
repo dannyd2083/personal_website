@@ -8,7 +8,7 @@ const Experience = () => {
         date: "May 2022 - August 2022 & May 2023 - August 2023 & October 2023 - December 2023",
         bulletPoints: [
             "Teaching Assistant for CPSC 455 – Applied Industry Practices (course focused on MERN development)",
-            "Teaching Assistant for CPSC 313 – Computer Hardware and Operating Systems)",
+            "Teaching Assistant for CPSC 313 – Computer Hardware and Operating Systems",
             "Conducted office hours, providing personalized assistance to students, and meticulously graded assignments; also performed exam invigilation duties, ensuring academic integrity."
         ]
     }

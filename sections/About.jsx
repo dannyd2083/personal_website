@@ -23,7 +23,7 @@ const About = () => {
                             In my free time, I enjoy <span className="text-regal-yellow"> playing video games</span> and exploring the latest gaming trends.
                             Fitness and tennis are also passions of mine—I regularly engage in weightlifting, cardio workouts, and tennis to maintain a healthy balance between mind and body.<br/>
                             I'm  <span className="text-regal-yellow">especially drawn to the gaming industry</span>, and hope to work on projects that combine my passion for gaming with my programming skills.
-                            My ultimate goal is to <span className="text-regal-yellow">create games that bring joy to players and make a positive impact on society.</span>  aThank you for taking the time to learn more about me. If you have any questions or would like to connect, feel free to reach out!</p>
+                            My ultimate goal is to <span className="text-regal-yellow">create games that bring joy to players and make a positive impact on society.</span>  Thank you for taking the time to learn more about me. If you have any questions or would like to connect, feel free to reach out!</p>
                     </div>
 
                 </div>

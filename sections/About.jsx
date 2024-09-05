@@ -12,20 +12,18 @@ const About = () => {
                 <div>
                 <h1 className= "text-5xl text-regal-yellow font-AbrilFatface mt-10 mb-10 left-0" > About Me</h1>
                     <div className="text-2xl mr-10">
-                        <p>Greetings, I'm Danny, a recent <span className="text-regal-yellow text-2xl font-bold"> Computer Science graduate </span>from the <span className="text-regal-yellow text-2xl font-bold"> University of British Columbia in Vancouver </span>.
-                            Originally from Shenzhen, China, I'm <span className="text-regal-yellow"> passionate about technology and the positive impact </span> it can have on people's lives.<br/>
-                            I'm <span className="text-regal-yellow"> a dedicated and detail-oriented individual</span> who takes great pride in my work and strives to solve complex problems with efficiency and precision.
-                            My strengths include<span className="text-regal-yellow">  my ability to learn and adapt quickly</span>, which has helped me stay up-to-date with the latest trends and technologies in the ever-changing field of computer science.
+                        <p>Greetings, I'm Danny, a <span className="text-regal-yellow text-2xl font-bold"> Computer Science graduate </span>from the <span className="text-regal-yellow text-2xl font-bold"> University of British Columbia </span>, currently pursuing a <span className="text-regal-yellow text-2xl font-bold">
+                            Master's degree in Cybersecurity at Simon Fraser University.</span> Originally from Shenzhen, China, I'm <span className="text-regal-yellow"> passionate about technology and the positive impact </span> it can have on people's lives.<br/>
+                            I'm <span className="text-regal-yellow"> a dedicated and detail-oriented individual</span>, with a strong drive to solve complex problems efficiently and with precision.
+                            My ability <span className="text-regal-yellow">  quickly learn and adapt to new technologies </span>, has helped me stay up-to-date with the latest trends and technologies in the ever-changing field of computer science.
                             <br/>
-                            This September, I am excited to further my journey by pursuing a <span className="text-regal-yellow text-2xl font-bold"> Master's degree in Cybersecurity at Simon Fraser University</span>. I am eager to deepen my understanding and enhance my skills in this vital area of technology.
+                            As I continue my journey in cybersecurity, I'm eager to deepen my understanding of this critical field and enhance my technical skills to protect systems and data.<span className="text-regal-yellow"> My long-term goal is to merge my expertise in cybersecurity with my passion for game development,</span>
+                            contributing to both industries by creating secure, innovative, and enjoyable experiences for players.
                             <br/>
                             In my free time, I enjoy <span className="text-regal-yellow"> playing video games</span> and exploring the latest gaming trends.
-                            I'm also passionate about fitness and regularly engage in a range of physical activities, from weightlifting to cardio workouts.
-                            Looking to the future, my ultimate goal is to become a reliable developer and make a meaningful contribution to the industry.
-                            I'm particularly <span className="text-regal-yellow">interested in the gaming industry</span>, and I hope to work on projects that allow me to blend my passion for gaming with my programming skills.
-                            Ultimately, I want to <span className="text-regal-yellow">create video games that bring joy and happiness</span> to people, and make a positive impact on society.
-                            Thanks for taking the time to learn a little bit more about me.
-                            If you have any questions or would like to connect, please don't hesitate to reach out.</p>
+                            Fitness and tennis are also passions of mine—I regularly engage in weightlifting, cardio workouts, and tennis to maintain a healthy balance between mind and body.<br/>
+                            I'm  <span className="text-regal-yellow">especially drawn to the gaming industry</span>, and hope to work on projects that combine my passion for gaming with my programming skills.
+                            My ultimate goal is to <span className="text-regal-yellow">create games that bring joy to players and make a positive impact on society.</span>  aThank you for taking the time to learn more about me. If you have any questions or would like to connect, feel free to reach out!</p>
                     </div>
 
                 </div>

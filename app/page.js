@@ -8,14 +8,12 @@ import Footer from "@/sections/Footer"
 
 const Home = () => {
     return (
-        <div>
-            <Navbar/>
+        <>
             <Hero/>
             <About/>
             <Experience/>
             <Projects/>
-            <Footer/>
-        </div>
+        </>
     );
 };
 

@@ -7,7 +7,7 @@ import Image from "next/image";
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
     return (
-            <nav className="w-full bg-black fixed top-0 left-0 right-0 z-10 border-b-4 border-regal-yellow ">
+            <nav className="w-full bg-black sticky top-0 left-0 right-0 z-10 border-b-4 border-regal-yellow ">
                 <div className="justify-between px-2 mx-auto lg:max-w-7xl md:items-center md:flex md:px-4">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -52,6 +52,13 @@ const Navbar = () => {
                                         Projects
                                     </Link>
                                 </li>
+
+                                <li className=" text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0   hover:text-regal-yellow hover:border-regal-yellow  md:hover:text-regal-yellow ">
+                                    <Link href="/music" onClick={() => setNavbar(!navbar)}>
+                                        Music
+                                    </Link>
+                                </li>
+
                             </ul>
                         </div>
                     </div>

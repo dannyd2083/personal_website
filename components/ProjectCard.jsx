@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import {AnimatePresence, motion} from "framer-motion";
 import {AiFillGithub} from 'react-icons/ai'
 import {RxCross2} from  'react-icons/rx'
+
 const ProjectCard = ({setSelected, project}) => {
     const [isSwitch, setSwitch] = useState(false);
     let right = (project.id-2)%4===0 || (project.id-3)%4===0
@@ -40,78 +41,78 @@ const ProjectCard = ({setSelected, project}) => {
             transition: { duration: .4 }
         }
     }
-    return (
 
-                <motion.div className="bg-regal-yellow items-center justify-center rounded min-h-[500px]"
-                        variants = {container}
-                        initial={"hidden"}
-                        whileInView={"visible"}
-                        viewport={{ once: true }}
-                        whileHover={{ scale: 1.05 }}
-                        layoutId={`card-${project.id}`}
-                        onClick={() => {
-                            setSelected(project);
-                            setSwitch(!isSwitch);
-                        }}
+    return (
+        <motion.div className="bg-clay-cream items-center justify-center rounded min-h-[500px] shadow-[rgba(139,_90,_60,_0.2)_0px_9px_20px] border border-clay-dust/30"
+                    variants = {container}
+                    initial={"hidden"}
+                    whileInView={"visible"}
+                    viewport={{ once: true }}
+                    whileHover={{ scale: 1.05 }}
+                    layoutId={`card-${project.id}`}
+                    onClick={() => {
+                        setSelected(project);
+                        setSwitch(!isSwitch);
+                    }}
+        >
+            <motion.div className="text-clay-charcoal"
+                        variants={item}
             >
-                <motion.div className="text-black"
-                    variants={item}
-                >
-                    <AnimatePresence mode = "wait" initial={false}>
-                        {!isSwitch ?
-                            (<motion.div
-                                key="test"
-                                variants={wrapperVariants}
-                                initial="initial"
-                                animate="animate"
-                                exit="exit"
-                                className="min-h-[750px]"
-                            >
-                                <div className="m-10 flex bottom-0 justify-center items-center bg-black rounded-lg text-white font-Lato font-bold">
-                                    Click the Card
-                                </div>
-                                <img src={project.img.src} alt="profile" className="rounded-lg p-5"/>
-                                <h1 className="p-4 text-3xl font-AbrilFatface">{project.title}</h1>
-                                {project.url !=null ? (
-                                    <a href = {project.url} >
-                                    <AiFillGithub className="ml-5 hover:scale-125 ease-in duration-300" color={'#000000'} size={30}/>
-                                    </a>
-                                ) : (
-                                    <div className= "flex ">
-                                    <RxCross2 className="ml-5" color={'#000000'} size={30}></RxCross2>
+                <AnimatePresence mode = "wait" initial={false}>
+                    {!isSwitch ?
+                        (<motion.div
+                            key="test"
+                            variants={wrapperVariants}
+                            initial="initial"
+                            animate="animate"
+                            exit="exit"
+                            className="min-h-[750px]"
+                        >
+                            <div className="m-10 flex bottom-0 justify-center items-center bg-clay-court rounded-lg text-clay-cream font-Lato font-bold">
+                                Click the Card
+                            </div>
+                            <img src={project.img.src} alt="profile" className="rounded-lg p-5"/>
+                            <h1 className="p-4 text-3xl font-AbrilFatface text-clay-forest">{project.title}</h1>
+                            {project.url !=null ? (
+                                <a href = {project.url} >
+                                    <AiFillGithub className="ml-5 hover:scale-125 ease-in duration-300" color={'#3e5233'} size={30}/>
+                                </a>
+                            ) : (
+                                <div className= "flex ">
+                                    <RxCross2 className="ml-5" color={'#3e5233'} size={30}></RxCross2>
                                     <p className= "ml-2">no repo because of NDA</p>
-                                    </div>
-                                ) }
-                                <p className="p-5 text-xl">
+                                </div>
+                            ) }
+                            <p className="p-5 text-xl">
                                 {project.description}
-                                </p>
-                            </motion.div>):
-                            <motion.div
-                                key="squares"
-                                variants={wrapperVariants}
-                                initial="initial"
-                                animate="animate"
-                                exit="exit"
-                                className="min-h-[750px]"
-                                onClick={() => {
+                            </p>
+                        </motion.div>):
+                        <motion.div
+                            key="squares"
+                            variants={wrapperVariants}
+                            initial="initial"
+                            animate="animate"
+                            exit="exit"
+                            className="min-h-[750px]"
+                            onClick={() => {
                                 setSwitch(!isSwitch);
                             }}>
-                                <h1 className="p-4 text-3xl font-AbrilFatface">{project.title}</h1>
-                                <ul className = "px-4 list-disc list-inside font-Lato">
-                                    {project.features?.map((item,i) => <li key={i}>{item}</li>)}
-                                </ul>
-                                <div className= "font-AbrilFatface m-2 text-3xl">Skill</div>
-                                <div className="mx-auto flex flex-wrap">
-                                    {project.skills?.map((item,i) =>
-                                        <div className = "m-1 px-4 bg-black rounded-lg text-white font-Lato font-bold"
-                                        key={i}>{item}
-                                        </div>)}
-                                </div>
-                            </motion.div>
-                        }
-                    </AnimatePresence>
-                </motion.div>
+                            <h1 className="p-4 text-3xl font-AbrilFatface text-clay-forest">{project.title}</h1>
+                            <ul className = "px-4 list-disc list-inside font-Lato">
+                                {project.features?.map((item,i) => <li key={i}>{item}</li>)}
+                            </ul>
+                            <div className= "font-AbrilFatface m-2 text-3xl text-clay-forest">Skills</div>
+                            <div className="mx-auto flex flex-wrap">
+                                {project.skills?.map((item,i) =>
+                                    <div className = "m-1 px-4 bg-clay-court rounded-lg text-clay-cream font-Lato font-bold"
+                                         key={i}>{item}
+                                    </div>)}
+                            </div>
+                        </motion.div>
+                    }
+                </AnimatePresence>
             </motion.div>
+        </motion.div>
     );
 };
 

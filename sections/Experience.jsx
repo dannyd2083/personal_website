@@ -35,12 +35,16 @@ const Experience = () => {
 
 
     return (
-        <div className=" max-w-[1440px] mx-auto  grid grid-cols-1 min-h-screen">
-            <a id ="experience" className="anchor"></a>
-            <h1 className="text-regal-yellow text-5xl m-10 font-AbrilFatface"> My Experience </h1>
-            <ExperienceCard {...UBC}/>
-            <ExperienceCard{...Semios}/>
-            <ExperienceCard{...Bluvec}/>
+        <div className="bg-clay-court-dark border-b-4 border-clay-cream min-h-screen py-16">
+        <a id ="experience" className="anchor"></a>
+            <div className='max-w-[1240px] mx-auto min-h-screen px-2 py-16'>
+                <h1 className="text-clay-cream text-5xl m-10 font-AbrilFatface"> My Experience </h1>
+                <div className='grid grid-cols-1 gap-8 justify-center  align-middle'>
+                <ExperienceCard {...UBC}/>
+                    <ExperienceCard{...Semios}/>
+                    <ExperienceCard{...Bluvec}/>
+                </div>
+            </div>
         </div>
     );
 };

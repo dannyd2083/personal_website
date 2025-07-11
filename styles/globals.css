@@ -7,16 +7,15 @@
 html {
     scroll-behavior: smooth !important;
     font-family: "Lato", sans-serif;
-    background: black;
+    background: #6d4528; /* Changed from black to clay-court-dark */
     color: white;
 }
 
 .hero-sub-title{
     @apply font-bold
-    text-regal-yellow
+    text-clay-dust
     pl-2
 }
-
 
 a.anchor {
     display: block;
@@ -24,4 +23,3 @@ a.anchor {
     top: -80px;
     visibility: hidden;
 }
-

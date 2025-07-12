@@ -25,7 +25,6 @@ module.exports = {
         'clay-forest-light': '#4a5e3d',   // Lighter forest green
         'clay-charcoal': '#2c2c2c',       // Charcoal for text
 
-        // Keep legacy
         'regal-yellow': '#fee715',
       },
     },

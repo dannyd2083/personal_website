@@ -1,7 +1,7 @@
 'use client';
-import Tabs from '@/components/music/Tabs';
 import ListeningStats from "@/sections/music/ListeningStats";
 import ComingSoon from "@/sections/music/ComingSoon";
+import MusicSection from "@/components/music/MusicSection";
 
 const MusicPage = () => {
     return (
@@ -16,7 +16,42 @@ const MusicPage = () => {
                     </p>
                 </div>
                 <ListeningStats />
-                <ComingSoon/>
+                <MusicSection
+                    title="Recent Tracks"
+                    dataKey="recentTracks"
+                    type="track"
+                    limit={10}
+                />
+
+                <MusicSection 
+                    title="Weekly Top Tracks" 
+                    dataKey="weeklyTopTracks" 
+                    type="track" 
+                    limit={10} 
+                />
+
+                <MusicSection 
+                    title="Weekly Top Artists" 
+                    dataKey="weeklyTopArtists" 
+                    type="artist" 
+                    limit={10} 
+                />
+
+                <MusicSection 
+                    title="All Time Top Tracks"
+                    dataKey="allTimeTopTracks" 
+                    type="track" 
+                    limit={10} 
+                />
+
+                <MusicSection 
+                    title="All Time Top Artists" 
+                    dataKey="allTimeTopArtists" 
+                    type="artist" 
+                    limit={10} 
+                />
+
+                {/*<ComingSoon/>*/}
                 {/*<Tabs />*/}
             </div>
         </div>

@@ -11,14 +11,67 @@ const About = () => {
                 <div>
                     <h1 className= "text-5xl text-clay-dust font-AbrilFatface mt-10 mb-10 left-0" > About Me</h1>
                     <div className="text-2xl mr-10 mb-16">
-                        <p>Hi, I'm Danny. I studied <span className="text-clay-dust text-2xl font-bold">Computer Science at the University of British Columbia</span> and I'm currently pursuing a <span className="text-clay-dust text-2xl font-bold">Master's degree in Cybersecurity at Simon Fraser University</span>. I grew up in <span className="text-clay-dust text-2xl font-bold">Shenzhen, China</span>, and I'm interested in how software systems behave in the real world, especially when things go wrong.<br/><br/>
-                            I enjoy working on technical problems that require <span className="text-clay-dust text-2xl font-bold">careful thinking and debugging</span>. My experience spans <span className="text-clay-dust text-2xl font-bold">cybersecurity, systems, and software development</span>, and I like getting my hands dirty with setups, experiments, and code rather than staying purely theoretical. I'm comfortable picking up new tools when needed and figuring things out by actually building and breaking things.
-                            <br/><br/>
-                            <span className="text-clay-dust text-2xl font-bold">Cybersecurity</span> is my current focus, particularly understanding <span className="text-clay-dust text-2xl font-bold">networks, system behavior, and how vulnerabilities are exploited and mitigated</span> in practice. Alongside that, I've always been interested in <span className="text-clay-dust text-2xl font-bold">game development and interactive systems</span>. I don't see it as a separate path, but something that naturally grows out of strong engineering fundamentals and performance-aware programming.
-                            <br/><br/>
-                            Outside of tech, I spend a lot of time playing <span className="text-clay-dust text-2xl font-bold">tennis</span>. I <span className="text-clay-dust text-2xl font-bold">train regularly, go to the gym</span>, and enjoy the discipline and consistency that comes with it. I also <span className="text-clay-dust text-2xl font-bold">play video games</span> and keep an eye on new titles and trends, mostly out of curiosity and long-term interest rather than chasing hype.
-                            <br/><br/>
-                            Thanks for stopping by. If you'd like to chat about projects, security, or anything related to software and games, feel free to reach out.</p>
+                        <p>
+                            Hi, I'm Danny. I grew up in{" "}
+                            <span className="text-clay-dust text-2xl font-bold">Shenzhen, China</span>
+                            , and came to Canada during high school. I studied{" "}
+                            <span className="text-clay-dust text-2xl font-bold">
+    Computer Science at the University of British Columbia
+  </span>{" "}
+                            and recently finished my last semester in the{" "}
+                            <span className="text-clay-dust text-2xl font-bold">
+    Master's program in Cybersecurity at Simon Fraser University
+  </span>
+                            .
+                            <br />
+                            <br />
+                            I like working on technical problems that involve{" "}
+                            <span className="text-clay-dust text-2xl font-bold">
+    debugging, testing, and figuring things out
+  </span>{" "}
+                            by actually building them. My experience is mostly around{" "}
+                            <span className="text-clay-dust text-2xl font-bold">
+    software development, cybersecurity, systems, and web projects
+  </span>
+                            . I enjoy picking up new tools when I need them, and I usually learn best by
+                            trying things out rather than only reading about them.
+                            <br />
+                            <br />
+                            <span className="text-clay-dust text-2xl font-bold">Cybersecurity</span> has
+                            been my recent focus, but I’m also interested in building practical software
+                            that people can actually use. I like projects where I can{" "}
+                            <span className="text-clay-dust text-2xl font-bold">
+    try things, debug weird problems, and slowly figure out how everything fits
+    together
+  </span>
+                            . I’m also into{" "}
+                            <span className="text-clay-dust text-2xl font-bold">
+    game development and interactive systems
+  </span>
+                            , partly because I enjoy games, and partly because I like seeing how gameplay
+                            systems and interactions are actually built.
+                            <br />
+                            <br />
+                            Outside of tech, I spend a lot of time playing{" "}
+                            <span className="text-clay-dust text-2xl font-bold">tennis</span>, going to
+                            the{" "}
+                            <span className="text-clay-dust text-2xl font-bold">gym</span>, and recently
+                            started learning{" "}
+                            <span className="text-clay-dust text-2xl font-bold">
+    Brazilian jiu-jitsu
+  </span>
+                            . I also enjoy{" "}
+                            <span className="text-clay-dust text-2xl font-bold">video games</span>, not
+                            only as a hobby, but because I’m curious about how they are designed and
+                            built.
+                            <br />
+                            <br />
+                            Thanks for stopping by. Feel free to reach out if you want to chat about{" "}
+                            <span className="text-clay-dust text-2xl font-bold">
+    software, security, games, or projects
+  </span>
+                            .
+                        </p>
                     </div>
                 </div>
             </div>

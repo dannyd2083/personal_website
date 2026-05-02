@@ -39,3 +39,6 @@ next-env.d.ts
 
 # local design docs and specs
 docs/
+
+# claude project context
+CLAUDE.md

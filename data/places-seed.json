@@ -1,0 +1,124 @@
+{
+  "places": [
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "country": "Iceland",
+      "longitude": -21.8954,
+      "latitude": 64.1355,
+      "description": "Land of fire and ice. Vast lava fields, steaming geysers, and skies that never quite went dark in late August.",
+      "camera": "Fujifilm X-T5",
+      "cover_photo": "https://res.cloudinary.com/YOURCLOUD/image/upload/iceland-cover.jpg",
+      "last_photographed": "Aug 2025",
+      "visits": [
+        {
+          "id": "iceland-summer-2025",
+          "name": "Summer 2025",
+          "date": "Aug 2025",
+          "photos": [
+            {
+              "id": "isl-s25-01",
+              "url": "https://res.cloudinary.com/YOURCLOUD/image/upload/iceland-01.jpg",
+              "alt": "Placeholder — replace with real description"
+            },
+            {
+              "id": "isl-s25-02",
+              "url": "https://res.cloudinary.com/YOURCLOUD/image/upload/iceland-02.jpg",
+              "alt": "Placeholder — replace with real description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "country": "UK",
+      "longitude": -0.1257,
+      "latitude": 51.5085,
+      "description": "Grey skies, red buses, and streets that have seen centuries pass. A summer trip that felt more like a slow wander than a holiday.",
+      "camera": "Fujifilm X-T5",
+      "cover_photo": "https://res.cloudinary.com/YOURCLOUD/image/upload/uk-cover.jpg",
+      "last_photographed": "Jul 2024",
+      "visits": [
+        {
+          "id": "uk-summer-2024",
+          "name": "Summer 2024",
+          "date": "Jun–Jul 2024",
+          "photos": [
+            {
+              "id": "uk-s24-01",
+              "url": "https://res.cloudinary.com/YOURCLOUD/image/upload/uk-01.jpg",
+              "alt": "Placeholder — replace with real description"
+            },
+            {
+              "id": "uk-s24-02",
+              "url": "https://res.cloudinary.com/YOURCLOUD/image/upload/uk-02.jpg",
+              "alt": "Placeholder — replace with real description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "country": "Hong Kong",
+      "longitude": 114.1536,
+      "latitude": 22.3701,
+      "description": "Neon signs, night markets, and a skyline that never sleeps. Dense, electric, and impossible to stop photographing.",
+      "camera": "Fujifilm X-T5",
+      "cover_photo": "https://res.cloudinary.com/YOURCLOUD/image/upload/hk-cover.jpg",
+      "last_photographed": "Jan 2026",
+      "visits": [
+        {
+          "id": "hk-winter-2026",
+          "name": "Winter 2026",
+          "date": "Jan 2026",
+          "photos": [
+            {
+              "id": "hk-w26-01",
+              "url": "https://res.cloudinary.com/YOURCLOUD/image/upload/hk-01.jpg",
+              "alt": "Placeholder — replace with real description"
+            },
+            {
+              "id": "hk-w26-02",
+              "url": "https://res.cloudinary.com/YOURCLOUD/image/upload/hk-02.jpg",
+              "alt": "Placeholder — replace with real description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banff",
+      "name": "Banff",
+      "country": "Canada",
+      "longitude": -115.5698,
+      "latitude": 51.1762,
+      "description": "Turquoise lakes, pine forests, and mountain peaks that make you feel very small. A few hours from home but a world away.",
+      "camera": "Fujifilm X-T5",
+      "cover_photo": "https://res.cloudinary.com/YOURCLOUD/image/upload/banff-cover.jpg",
+      "last_photographed": "Aug 2025",
+      "visits": [
+        {
+          "id": "banff-summer-2025",
+          "name": "Summer 2025",
+          "date": "Aug 2025",
+          "photos": [
+            {
+              "id": "bnf-s25-01",
+              "url": "https://res.cloudinary.com/YOURCLOUD/image/upload/banff-01.jpg",
+              "alt": "Placeholder — replace with real description"
+            },
+            {
+              "id": "bnf-s25-02",
+              "url": "https://res.cloudinary.com/YOURCLOUD/image/upload/banff-02.jpg",
+              "alt": "Placeholder — replace with real description"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

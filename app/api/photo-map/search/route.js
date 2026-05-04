@@ -1,6 +1,12 @@
 import {NextResponse} from 'next/server'
 import {supabase} from "@/lib/supabase";
-import {AutoTokenizer,CLIPTextModelWithProjection} from "@xenova/transformers";
+import {AutoTokenizer, CLIPTextModelWithProjection, env} from "@xenova/transformers";
+
+env.backends.onnx.wasm.numThreads = 1
+env.backends.onnx.wasm.proxy = false
+
+export const runtime = 'nodejs'
+export const maxDuration = 60
 
 let tokenizer = null;
 let text_model = null;

@@ -18,8 +18,8 @@ const SearchBar = ({onSearch, onClear, isLoading}) => {
     }, [value,onSearch,onClear])
 
     return (
-        <div className="bg-clay-court-light px-4 py-3">
-            <div className="max-w-xl mx-auto relative">
+        <div style={{ maxWidth: 576, margin: '0 auto', background: 'rgba(166,124,90,0.92)', borderRadius: 12, padding: '10px 14px', boxShadow: '0 2px 12px rgba(0,0,0,0.18)', backdropFilter: 'blur(4px)' }}>
+            <div className="relative">
                 <input
                     type="text"
                     value={value}

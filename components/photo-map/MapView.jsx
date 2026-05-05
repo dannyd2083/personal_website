@@ -1,16 +1,31 @@
 'use client'
-import {useState,useCallback} from "react";
-import {Map, Marker, Popup} from "react-map-gl";
+import {useState, useRef, useEffect} from "react";
+import {Map, Marker, Popup} from "react-map-gl/mapbox"
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 const MapView = ({places, selectedPlace, onPlaceSelect}) => {
     const [hoveredPlace, setHoveredPlace] = useState(null)
+    const mapRef = useRef(null)
+    const observerRef = useRef(null)
+
+    const handleLoad = () => {
+        const map = mapRef.current?.getMap()
+        if (!map) return
+        observerRef.current = new ResizeObserver(() => map.resize())
+        observerRef.current.observe(map.getContainer())
+    }
+
+    useEffect(() => () => observerRef.current?.disconnect(), [])
+
     return (
         <Map
+        ref={mapRef}
+        onLoad={handleLoad}
         mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
-        initialViewState={{ longitude: 10, latitude: 20, zoom: 1.4 }}
+        initialViewState={{ longitude: 10, latitude: 30, zoom: 1.2 }}
         style={{ width: '100%', height: '100%' }}
         mapStyle="mapbox://styles/mapbox/light-v11"
+        projection="mercator"
         onClick={() => onPlaceSelect?.(null)}
         >
             {places.map(place => {const isSelected = selectedPlace?.id === place.id
@@ -42,6 +57,9 @@ const MapView = ({places, selectedPlace, onPlaceSelect}) => {
                                         strokeWidth="1.5"/>
                                     <circle cx="12" cy="9" r="2.5" fill="#f5f1e8" />
                                 </svg>
+                                <div style={{ fontSize: '11px', fontWeight: 600, color: '#3b2a1a', textAlign: 'center', marginTop: '2px', whiteSpace: 'nowrap', textShadow: '0 1px 2px rgba(255,255,255,0.9)', pointerEvents: 'none' }}>
+                                    {place.name}
+                                </div>
                             </div>
                         </Marker>
                     )
@@ -51,8 +69,9 @@ const MapView = ({places, selectedPlace, onPlaceSelect}) => {
                     longitude={hoveredPlace.longitude}
                     latitude={hoveredPlace.latitude}
                     closeButton={false}
-                    offset={20}
-                    className="photo-map-popup">
+                    offset={25}
+                    className="photo-map-popup"
+                    style={{ pointerEvents: 'none' }}>
                 <div className="text-xs font-medium px-1">
                     {hoveredPlace.name} · {hoveredPlace.country}
                 </div>

@@ -29,6 +29,8 @@ a.anchor {
     border-radius: 6px;
     background: #f5f1e8;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    color: #3b2a1a;
+    font-weight: 500;
 }
 .photo-map-popup .mapboxgl-popup-tip {
     border-top-color: #f5f1e8;

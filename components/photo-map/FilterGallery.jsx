@@ -4,7 +4,7 @@ const FilterGallery = ({photos, query}) => {
     if(!photos) return;
     return(
         <div>
-            <p>{photos.length} photos matching "{query}"</p>
+            <p>{photos.length} photos matching &ldquo;{query}&rdquo;</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                 {photos.map(photo => (
                     <div key={photo.id} className="relative aspect-[4/3] rounded-lg overflow-hidden">

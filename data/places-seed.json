@@ -1,19 +1,19 @@
 {
   "places": [
     {
-      "id": "london",
-      "name": "London",
+      "id": "uk",
+      "name": "United Kingdom",
       "country": "UK",
       "longitude": -0.1278,
       "latitude": 51.5074,
-      "description": "Grey skies and red buses. Streets worn smooth by centuries of footsteps, parks that feel like exhales in a city that never quite stops.",
+      "description": "From London's red buses to the basalt columns of the Giant's Causeway — a summer wander through England and Northern Ireland that kept surprising me.",
       "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/london/DSCF1910",
-      "last_photographed": "Jun 2024",
+      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/giants-causeway/DSCF3053",
+      "last_photographed": "Jul 2024",
       "visits": [
         {
-          "id": "london-summer-2024",
-          "name": "Summer 2024",
+          "id": "uk-london",
+          "name": "London",
           "date": "Jun 2024",
           "photos": [
             {
@@ -27,23 +27,10 @@
               "alt": "London"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "seven-sisters",
-      "name": "Seven Sisters",
-      "country": "UK",
-      "longitude": 0.1512,
-      "latitude": 50.7522,
-      "description": "Chalk cliffs that drop straight into the Channel. Wind in your face, green above, white below, then nothing but sea.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/seven-sisters/DSCF2283",
-      "last_photographed": "Jun 2024",
-      "visits": [
+        },
         {
-          "id": "seven-sisters-summer-2024",
-          "name": "Summer 2024",
+          "id": "uk-seven-sisters",
+          "name": "Seven Sisters",
           "date": "Jun 2024",
           "photos": [
             {
@@ -62,23 +49,10 @@
               "alt": "Seven Sisters cliffs"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "oxford",
-      "name": "Oxford",
-      "country": "UK",
-      "longitude": -1.2577,
-      "latitude": 51.7520,
-      "description": "Sandstone spires and cobbled lanes. The kind of place where you half expect someone in robes to cycle past — and then they do.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/oxford/DSCF2470",
-      "last_photographed": "Jun 2024",
-      "visits": [
+        },
         {
-          "id": "oxford-summer-2024",
-          "name": "Summer 2024",
+          "id": "uk-oxford",
+          "name": "Oxford",
           "date": "Jun 2024",
           "photos": [
             {
@@ -102,23 +76,10 @@
               "alt": "Oxford"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "stonehenge",
-      "name": "Stonehenge",
-      "country": "UK",
-      "longitude": -1.8262,
-      "latitude": 51.1789,
-      "description": "Older than memory. Stones arranged with an intention no one fully agrees on — standing there in the Wiltshire wind, you feel it anyway.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/stonehenge/DSCF2498",
-      "last_photographed": "Jun 2024",
-      "visits": [
+        },
         {
-          "id": "stonehenge-summer-2024",
-          "name": "Summer 2024",
+          "id": "uk-stonehenge",
+          "name": "Stonehenge",
           "date": "Jun 2024",
           "photos": [
             {
@@ -127,23 +88,10 @@
               "alt": "Stonehenge"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "bath",
-      "name": "Bath",
-      "country": "UK",
-      "longitude": -2.3590,
-      "latitude": 51.3811,
-      "description": "Honey-coloured Georgian stone and Roman ruins sharing the same streets. A city that wears its history lightly.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/bath/DSCF2552",
-      "last_photographed": "Jun 2024",
-      "visits": [
+        },
         {
-          "id": "bath-summer-2024",
-          "name": "Summer 2024",
+          "id": "uk-bath",
+          "name": "Bath",
           "date": "Jun 2024",
           "photos": [
             {
@@ -157,23 +105,10 @@
               "alt": "Bath"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "belfast",
-      "name": "Belfast",
-      "country": "UK",
-      "longitude": -5.9301,
-      "latitude": 54.5973,
-      "description": "Murals on every corner telling stories the city refuses to forget. Friendly in a way that catches you off guard.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/belfast/DSCF2836",
-      "last_photographed": "Jun 2024",
-      "visits": [
+        },
         {
-          "id": "belfast-summer-2024",
-          "name": "Summer 2024",
+          "id": "uk-belfast",
+          "name": "Belfast",
           "date": "Jun 2024",
           "photos": [
             {
@@ -187,59 +122,33 @@
               "alt": "Belfast"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "dark-hedges",
-      "name": "Dark Hedges",
-      "country": "UK",
-      "longitude": -6.3549,
-      "latitude": 55.1248,
-      "description": "A tunnel of beech trees planted in the 1700s, their branches tangled overhead like they're whispering to each other. Eerie even in daylight.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dark-hedges/DSCF2936",
-      "last_photographed": "Jul 2024",
-      "visits": [
+        },
         {
-          "id": "dark-hedges-summer-2024",
-          "name": "Summer 2024",
+          "id": "uk-dark-hedges",
+          "name": "Dark Hedges",
           "date": "Jul 2024",
           "photos": [
             {
               "id": "darkhed-s24-01",
               "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dark-hedges/DSCF2936",
-              "alt": "Dark Hedges tree tunnel"
+              "alt": "Dark Hedges"
             },
             {
               "id": "darkhed-s24-02",
               "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dark-hedges/IMG_6887",
-              "alt": "Dark Hedges tree tunnel"
+              "alt": "Dark Hedges"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "giants-causeway",
-      "name": "Giant's Causeway",
-      "country": "UK",
-      "longitude": -6.5116,
-      "latitude": 55.2408,
-      "description": "Forty thousand basalt columns stepping into the North Atlantic. Geology doing something that looks impossible — or mythological.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/giants-causeway/DSCF3053",
-      "last_photographed": "Jul 2024",
-      "visits": [
+        },
         {
-          "id": "giants-causeway-summer-2024",
-          "name": "Summer 2024",
+          "id": "uk-giants-causeway",
+          "name": "Giant's Causeway",
           "date": "Jul 2024",
           "photos": [
             {
               "id": "giantscaus-s24-01",
               "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/giants-causeway/DSCF3053",
-              "alt": "Giant's Causeway basalt columns"
+              "alt": "Giant's Causeway"
             },
             {
               "id": "giantscaus-s24-02",
@@ -249,7 +158,7 @@
             {
               "id": "giantscaus-s24-03",
               "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/giants-causeway/DSCF2962",
-              "alt": "Giant's Causeway coastline"
+              "alt": "Giant's Causeway"
             }
           ]
         }
@@ -263,7 +172,7 @@
       "latitude": 22.1987,
       "description": "Portuguese tiles and neon signs occupying the same block. A place that has always been two things at once.",
       "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/macao/DSCF3420",
+      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/macao/DSCF3437",
       "last_photographed": "Dec 2024",
       "visits": [
         {
@@ -293,7 +202,7 @@
       "latitude": 37.7749,
       "description": "Fog rolling over the bridge, hills so steep you have to lean into them. A city that refuses to be ordinary.",
       "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3753",
+      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3810",
       "last_photographed": "Feb 2025",
       "visits": [
         {
@@ -346,20 +255,20 @@
       ]
     },
     {
-      "id": "vik",
-      "name": "Vík",
+      "id": "iceland",
+      "name": "Iceland",
       "country": "Iceland",
-      "longitude": -19.0050,
-      "latitude": 63.4190,
-      "description": "Iceland's southernmost village, pinched between black sand and a mountain. The sea here is loud and restless.",
-      "camera": "iPhone",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/vik/IMG_2838",
+      "longitude": -19.0208,
+      "latitude": 64.9631,
+      "description": "A week driving the ring road — black sand beaches, basalt columns, boiling mud, glaciers. Iceland gives you everything at once and doesn't apologise for it.",
+      "camera": "Fujifilm X-T5",
+      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/kirkjufell/DSCF7013",
       "last_photographed": "Aug 2025",
       "visits": [
         {
-          "id": "vik-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-vik",
+          "name": "Vík",
+          "date": "Aug 22, 2025",
           "photos": [
             {
               "id": "vik-s25-01",
@@ -372,49 +281,23 @@
               "alt": "Southern Iceland"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "dc3-wreck",
-      "name": "DC-3 Wreck",
-      "country": "Iceland",
-      "longitude": -19.3635,
-      "latitude": 63.4597,
-      "description": "An abandoned US Navy plane rusting on a black sand beach since 1973. Nobody moved it. Now everyone photographs it.",
-      "camera": "iPhone",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dc3-wreck/IMG_2877",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "dc3-wreck-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-dc3",
+          "name": "DC-3 Wreck",
+          "date": "Aug 23, 2025",
           "photos": [
             {
               "id": "dc3-s25-01",
               "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dc3-wreck/IMG_2877",
-              "alt": "DC-3 plane wreck on Sólheimasandur black sand beach"
+              "alt": "DC-3 plane wreck on Sólheimasandur"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "loftsalahellir",
-      "name": "Loftsalahellir",
-      "country": "Iceland",
-      "longitude": -19.2398,
-      "latitude": 63.5234,
-      "description": "A lava tube cave with a ceiling that opens to sky. The kind of place that makes you feel like you're inside the earth itself.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/loftsalahellir/DSCF5610",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "loftsalahellir-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-loftsalahellir",
+          "name": "Loftsalahellir",
+          "date": "Aug 23, 2025",
           "photos": [
             {
               "id": "lofts-s25-01",
@@ -422,24 +305,11 @@
               "alt": "Loftsalahellir lava tube cave"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "dyrhólaey",
-      "name": "Dyrhólaey",
-      "country": "Iceland",
-      "longitude": -19.1268,
-      "latitude": 63.4040,
-      "description": "A lighthouse at the tip of a volcanic promontory, with a rock arch that frames the ocean below. Puffins nest in the cliffs in summer.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dyrh%C3%B3laey/DSCF5622",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "dyrhólaey-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-dyrhólaey",
+          "name": "Dyrhólaey",
+          "date": "Aug 23, 2025",
           "photos": [
             {
               "id": "dyrh-s25-01",
@@ -447,24 +317,11 @@
               "alt": "Dyrhólaey lighthouse"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "reynisfjara",
-      "name": "Reynisfjara",
-      "country": "Iceland",
-      "longitude": -19.0443,
-      "latitude": 63.4045,
-      "description": "Black sand beach with basalt columns rising from the water like organ pipes. The waves here give no warning.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/reynisfjara/DSCF5984",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "reynisfjara-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-reynisfjara",
+          "name": "Reynisfjara",
+          "date": "Aug 23, 2025",
           "photos": [
             {
               "id": "reyn-s25-01",
@@ -477,24 +334,11 @@
               "alt": "Reynisfjara"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "diamond-beach",
-      "name": "Diamond Beach",
-      "country": "Iceland",
-      "longitude": -16.1795,
-      "latitude": 64.0503,
-      "description": "Glacier ice washing up on black sand — chunks that have been frozen for thousands of years, glowing blue in the low light.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/diamond-beach/DSCF6197",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "diamond-beach-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-diamond-beach",
+          "name": "Diamond Beach",
+          "date": "Aug 24, 2025",
           "photos": [
             {
               "id": "diamond-s25-01",
@@ -502,24 +346,11 @@
               "alt": "Diamond Beach glacier ice on black sand"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "svartifoss",
-      "name": "Svartifoss",
-      "country": "Iceland",
-      "longitude": -16.9753,
-      "latitude": 64.0261,
-      "description": "A waterfall framed by dark hexagonal basalt columns that hang like a curtain. The hike in is worth every step.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/svartifoss/DSCF6019",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "svartifoss-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-svartifoss",
+          "name": "Svartifoss",
+          "date": "Aug 24, 2025",
           "photos": [
             {
               "id": "svart-s25-01",
@@ -527,74 +358,35 @@
               "alt": "Svartifoss waterfall with basalt columns"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "studlagil-canyon",
-      "name": "Stuðlagil Canyon",
-      "country": "Iceland",
-      "longitude": -14.9826,
-      "latitude": 65.2145,
-      "description": "A hidden canyon of basalt columns rising from a glacial river. Only accessible after a dam upstream reduced the water level — now turquoise and extraordinary.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/studlagil-canyon/DSCF6426",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "studlagil-canyon-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-studlagil",
+          "name": "Stuðlagil Canyon",
+          "date": "Aug 25, 2025",
           "photos": [
             {
               "id": "studl-s25-01",
               "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/studlagil-canyon/DSCF6426",
-              "alt": "Stuðlagil Canyon basalt columns and turquoise river"
+              "alt": "Stuðlagil Canyon"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "hverir",
-      "name": "Hverir",
-      "country": "Iceland",
-      "longitude": -16.8191,
-      "latitude": 65.6374,
-      "description": "Boiling mud pools and sulphur vents on the slopes of Námafjall. The ground feels alive — and smells like it is.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/hverir/DSCF6746",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "hverir-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-hverir",
+          "name": "Hverir",
+          "date": "Aug 25, 2025",
           "photos": [
             {
               "id": "hverir-s25-01",
               "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/hverir/DSCF6746",
-              "alt": "Hverir geothermal area with steam vents"
+              "alt": "Hverir geothermal area"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "hvitserkur",
-      "name": "Hvítserkur",
-      "country": "Iceland",
-      "longitude": -20.6326,
-      "latitude": 65.6080,
-      "description": "A 15-metre basalt stack rising from Húnafjörður bay, shaped like a rhino drinking from the sea. Strangest thing you can see at low tide.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/hvitserkur/DSCF6905",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "hvitserkur-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-hvitserkur",
+          "name": "Hvítserkur",
+          "date": "Aug 26, 2025",
           "photos": [
             {
               "id": "hvits-s25-01",
@@ -602,24 +394,11 @@
               "alt": "Hvítserkur basalt rock formation"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "kirkjufell",
-      "name": "Kirkjufell",
-      "country": "Iceland",
-      "longitude": -23.3080,
-      "latitude": 64.9419,
-      "description": "A lone arrowhead mountain on the Snæfellsnes peninsula, reflected in the river below. One of Iceland's most photographed shapes — and for good reason.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/kirkjufell/DSCF7013",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "kirkjufell-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-kirkjufell",
+          "name": "Kirkjufell",
+          "date": "Aug 26, 2025",
           "photos": [
             {
               "id": "kirkj-s25-01",
@@ -627,49 +406,23 @@
               "alt": "Kirkjufell mountain"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "ingjaldshólskirkja",
-      "name": "Ingjaldshólskirkja",
-      "country": "Iceland",
-      "longitude": -23.5003,
-      "latitude": 64.8558,
-      "description": "A tiny white church on a hill overlooking the Snæfellsnes fjords, said to be one of Iceland's oldest parish churches. Quiet in a way that reaches you.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/ingjaldsh%C3%B3lskirkja/DSCF7046",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "ingjaldshólskirkja-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-ingjaldshólskirkja",
+          "name": "Ingjaldshólskirkja",
+          "date": "Aug 27, 2025",
           "photos": [
             {
               "id": "ingj-s25-01",
               "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/ingjaldsh%C3%B3lskirkja/DSCF7046",
-              "alt": "Ingjaldshólskirkja white church on Snæfellsnes"
+              "alt": "Ingjaldshólskirkja church"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "arnarstapi",
-      "name": "Arnarstapi",
-      "country": "Iceland",
-      "longitude": -23.6241,
-      "latitude": 64.7706,
-      "description": "A small harbour where the sea has carved the lava into arches and blowholes. Seabirds everywhere. The sound of waves through stone.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/arnarstapi/DSCF7143",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "arnarstapi-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-arnarstapi",
+          "name": "Arnarstapi",
+          "date": "Aug 27, 2025",
           "photos": [
             {
               "id": "arnar-s25-01",
@@ -677,24 +430,11 @@
               "alt": "Arnarstapi lava coastline"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "bruarfoss",
-      "name": "Brúarfoss",
-      "country": "Iceland",
-      "longitude": -20.4694,
-      "latitude": 64.1500,
-      "description": "Iceland's bluest waterfall — a cascade of impossibly vivid turquoise through a narrow lava channel. Hard to believe it's real.",
-      "camera": "Fujifilm X-T5",
-      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/bruarfoss/DSCF7207",
-      "last_photographed": "Aug 2025",
-      "visits": [
+        },
         {
-          "id": "bruarfoss-summer-2025",
-          "name": "Summer 2025",
-          "date": "Aug 2025",
+          "id": "iceland-bruarfoss",
+          "name": "Brúarfoss",
+          "date": "Aug 28, 2025",
           "photos": [
             {
               "id": "bruar-s25-01",

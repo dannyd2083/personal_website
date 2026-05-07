@@ -35,6 +35,6 @@ export async function GET(request){
     })
 
     if (error) return NextResponse.json({ error: error.message }, { status: 500 })
-    return NextResponse.json({ photos })
+    return NextResponse.json({ photos: photos ?? [] })
 }
 

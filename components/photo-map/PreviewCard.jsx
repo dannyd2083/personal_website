@@ -1,25 +1,32 @@
-import Link from "next/link";
 import Image from "next/image";
 
-const PreviewCard = ({ place }) => {
+const PreviewCard = ({ place, selectedPhoto, onPhotoClick }) => {
     if (!place) return null;
     const totalPhotos = place.visits.reduce((s, v) => s + (v.photos?.length ?? 0), 0)
     const totalVisits = place.visits.length
-    // Force a 3:2 smart crop via Cloudinary so portrait photos don't get awkwardly clipped
-    const coverUrl = place.cover_photo.replace('/f_auto,q_auto/', '/f_auto,q_auto,c_fill,g_auto,ar_3:2/')
+
+    const displayUrl = (selectedPhoto?.url ?? place.cover_photo)
+        .replace('/f_auto,q_auto/', '/f_auto,q_auto,c_fill,g_auto,ar_3:2/')
 
     return (
         <div className="bg-clay-cream">
             <div className="flex flex-col md:flex-row min-h-[280px]">
-                {/* Cover photo */}
-                <div className="relative w-full md:w-[45%] h-64 md:h-auto flex-shrink-0">
+                {/* Cover photo — click to open modal */}
+                <div
+                    className="group relative w-full md:w-[45%] h-64 md:h-auto flex-shrink-0 cursor-zoom-in"
+                    onClick={onPhotoClick}
+                >
                     <Image
-                        src={coverUrl}
-                        alt={place.name}
+                        src={displayUrl}
+                        alt={selectedPhoto?.alt || place.name}
                         fill
+                        unoptimized
                         className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 45vw"
                     />
+                    {/* expand hint on hover */}
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                        <span className="opacity-0 group-hover:opacity-100 transition-opacity text-white text-3xl leading-none select-none">⤢</span>
+                    </div>
                 </div>
 
                 {/* Info panel */}
@@ -45,15 +52,6 @@ const PreviewCard = ({ place }) => {
                     {place.camera && (
                         <p className="text-clay-court-light text-xs">Shot on {place.camera}</p>
                     )}
-
-                    <div className="mt-1">
-                        <Link
-                            href={`/photo-map/${place.id}`}
-                            className="inline-flex items-center gap-2 bg-clay-court-dark text-clay-cream text-sm px-5 py-2.5 rounded-md hover:bg-clay-court transition-colors"
-                        >
-                            View place →
-                        </Link>
-                    </div>
                 </div>
             </div>
         </div>

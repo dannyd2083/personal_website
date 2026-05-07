@@ -7,11 +7,14 @@ import VisitChips from '@/components/photo-map/VisitChips'
 import ThumbnailStrip from '@/components/photo-map/ThumbnailStrip'
 import SearchBar from '@/components/photo-map/SearchBar'
 import FilterGallery from '@/components/photo-map/FilterGallery'
+import PhotoModal from '@/components/photo-map/PhotoModal'
 
 const PhotoMap = () => {
     const[places, setPlaces] = useState([])
     const[selectedPlace, setSelectedPlace] = useState(null)
     const[activeVisit,setActiveVisit] = useState(null)
+    const[selectedPhoto, setSelectedPhoto] = useState(null)
+    const[modalPhoto, setModalPhoto] = useState(null)
     const[searchResults,setSearchResults] = useState(null)
     const[searchQuery,setSearchQuery] = useState('')
     const[isSearching,setIsSearching] = useState(false)
@@ -42,7 +45,12 @@ const PhotoMap = () => {
 
     useEffect(() => {
         setActiveVisit(null)
+        setSelectedPhoto(null)
     }, [selectedPlace])
+
+    useEffect(() => {
+        setSelectedPhoto(null)
+    }, [activeVisit])
 
     const handleClear = useCallback(() => {
         setSearchResults(null)
@@ -101,12 +109,27 @@ const PhotoMap = () => {
                     className="bg-clay-cream px-4 md:px-8 pt-6 pb-8"
                 >
                     <div className="rounded-2xl overflow-hidden shadow-md">
-                        <PreviewCard place={selectedPlace} />
+                        <PreviewCard
+                            place={selectedPlace}
+                            selectedPhoto={selectedPhoto}
+                            onPhotoClick={() => setModalPhoto(selectedPhoto ?? { url: selectedPlace.cover_photo, alt: selectedPlace.name, id: '__cover__' })}
+                        />
                         <VisitChips visits={selectedPlace.visits} activeVisit={activeVisit} onVisitChange={setActiveVisit} />
-                        <ThumbnailStrip visits={selectedPlace.visits} activeVisit={activeVisit} />
+                        <ThumbnailStrip
+                            visits={selectedPlace.visits}
+                            activeVisit={activeVisit}
+                            selectedPhoto={selectedPhoto}
+                            onPhotoSelect={setSelectedPhoto}
+                        />
                     </div>
                 </motion.div>
             )}
+
+            <PhotoModal
+                photo={modalPhoto}
+                place={selectedPlace}
+                onClose={() => setModalPhoto(null)}
+            />
 
             {/* Search mode */}
             {isSearchMode && (

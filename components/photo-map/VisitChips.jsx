@@ -1,11 +1,9 @@
-
-
 const VisitChips = ({ visits, activeVisit, onVisitChange }) => {
-    return(
-        <div>
+    return (
+        <div className="flex gap-2 px-6 py-4 overflow-x-auto">
             <button
                 onClick={() => onVisitChange(null)}
-                className={`${activeVisit === null ? 'bg-clay-court-dark text-clay-cream' : 'bg-clay-dust text-clay-court-dark'} px-4 py-1.5 rounded-full text-sm`}
+                className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm transition-colors ${activeVisit === null ? 'bg-clay-court-dark text-clay-cream' : 'bg-clay-dust text-clay-court-dark hover:bg-clay-court hover:text-clay-cream'}`}
             >
                 All visits
             </button>
@@ -13,14 +11,13 @@ const VisitChips = ({ visits, activeVisit, onVisitChange }) => {
                 <button
                     key={visit.id}
                     onClick={() => onVisitChange(visit.id)}
-                    className={`${activeVisit === visit.id ? 'bg-clay-court-dark text-clay-cream' : 'bg-clay-dust text-clay-court-dark'} px-4 py-1.5 rounded-full text-sm`}
+                    className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm transition-colors ${activeVisit === visit.id ? 'bg-clay-court-dark text-clay-cream' : 'bg-clay-dust text-clay-court-dark hover:bg-clay-court hover:text-clay-cream'}`}
                 >
                     {visit.name}
                 </button>
             ))}
         </div>
     )
-
 }
 
 export default VisitChips;

@@ -97,9 +97,11 @@ const PhotoMap = () => {
 
             {/* Browse mode */}
             {!isSearchMode && selectedPlace && (
-                <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.25 }}>
-                    <PreviewCard place={selectedPlace} />
-                    <div className="bg-clay-cream">
+                <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.25 }}
+                    className="bg-clay-cream px-4 md:px-8 pt-6 pb-8"
+                >
+                    <div className="rounded-2xl overflow-hidden shadow-md">
+                        <PreviewCard place={selectedPlace} />
                         <VisitChips visits={selectedPlace.visits} activeVisit={activeVisit} onVisitChange={setActiveVisit} />
                         <ThumbnailStrip visits={selectedPlace.visits} activeVisit={activeVisit} />
                     </div>

@@ -11,7 +11,7 @@ const PhotoModal = ({ photo, place, onClose }) => {
 
     if (!photo) return null
 
-    const visit = place.visits.find(v => v.photos.some(p => p.id === photo.id))
+    const visit = place?.visits?.find(v => v.photos.some(p => p.id === photo.id))
 
     return (
         <div
@@ -34,7 +34,7 @@ const PhotoModal = ({ photo, place, onClose }) => {
                 <div className="relative w-full h-[70vh]">
                     <Image
                         src={photo.url}
-                        alt={photo.alt || place.name}
+                        alt={photo.alt || ''}
                         fill
                         className="object-contain rounded-lg"
                         sizes="(max-width: 1024px) 95vw, 896px"
@@ -44,8 +44,9 @@ const PhotoModal = ({ photo, place, onClose }) => {
 
                 {/* Metadata */}
                 <div className="flex gap-6 mt-4 text-white/60 text-sm">
+                    {photo.place_name && <span>{photo.place_name}{photo.visit_name ? ` · ${photo.visit_name}` : ''}</span>}
                     {visit?.date && <span>{visit.date}</span>}
-                    {place.camera && <span>Shot on {place.camera}</span>}
+                    {place?.camera && <span>Shot on {place.camera}</span>}
                 </div>
             </div>
         </div>

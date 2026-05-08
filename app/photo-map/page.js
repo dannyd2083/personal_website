@@ -134,7 +134,7 @@ const PhotoMap = () => {
             {/* Search mode */}
             {isSearchMode && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }}>
-                    <FilterGallery photos={searchResults} query={searchQuery} />
+                    <FilterGallery photos={searchResults} query={searchQuery} onPhotoClick={setModalPhoto} />
                 </motion.div>
             )}
         </div>

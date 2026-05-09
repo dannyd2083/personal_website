@@ -33,3 +33,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# superpowers brainstorm sessions
+.superpowers/
+
+# local design docs and specs
+docs/
+
+# claude project context
+CLAUDE.md

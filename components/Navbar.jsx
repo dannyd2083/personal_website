@@ -57,6 +57,11 @@ const Navbar = () => {
                                     Music
                                 </Link>
                             </li>
+                            <li className="text-xl text-clay-cream py-2 px-6 text-center border-b-2 md:border-b-0 hover:text-clay-dust hover:border-clay-dust md:hover:text-clay-dust">
+                                <Link href="/photo-map" onClick={() => setNavbar(!navbar)}>
+                                    Photo Map
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

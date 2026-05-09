@@ -1,0 +1,449 @@
+{
+  "places": [
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "country": "UK",
+      "longitude": -0.1278,
+      "latitude": 51.5074,
+      "description": "From London's red buses to the basalt columns of the Giant's Causeway — a summer wander through England and Northern Ireland that kept surprising me.",
+      "camera": "Fujifilm X-T5",
+      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/giants-causeway/DSCF3053",
+      "last_photographed": "Jul 2024",
+      "visits": [
+        {
+          "id": "uk-london",
+          "name": "London",
+          "date": "Jun 2024",
+          "photos": [
+            {
+              "id": "london-s24-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/london/DSCF1910",
+              "alt": "London"
+            },
+            {
+              "id": "london-s24-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/london/DSCF2011",
+              "alt": "London"
+            }
+          ]
+        },
+        {
+          "id": "uk-seven-sisters",
+          "name": "Seven Sisters",
+          "date": "Jun 2024",
+          "photos": [
+            {
+              "id": "sevsis-s24-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/seven-sisters/DSCF2283",
+              "alt": "Seven Sisters cliffs"
+            },
+            {
+              "id": "sevsis-s24-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/seven-sisters/DSCF2296",
+              "alt": "Seven Sisters cliffs"
+            },
+            {
+              "id": "sevsis-s24-03",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/seven-sisters/DSCF2330",
+              "alt": "Seven Sisters cliffs"
+            }
+          ]
+        },
+        {
+          "id": "uk-oxford",
+          "name": "Oxford",
+          "date": "Jun 2024",
+          "photos": [
+            {
+              "id": "oxford-s24-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/oxford/DSCF2470",
+              "alt": "Oxford"
+            },
+            {
+              "id": "oxford-s24-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/oxford/DSCF2472",
+              "alt": "Oxford"
+            },
+            {
+              "id": "oxford-s24-03",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/oxford/DSCF2478",
+              "alt": "Oxford"
+            },
+            {
+              "id": "oxford-s24-04",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/oxford/DSCF2481",
+              "alt": "Oxford"
+            }
+          ]
+        },
+        {
+          "id": "uk-stonehenge",
+          "name": "Stonehenge",
+          "date": "Jun 2024",
+          "photos": [
+            {
+              "id": "stone-s24-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/stonehenge/DSCF2498",
+              "alt": "Stonehenge"
+            }
+          ]
+        },
+        {
+          "id": "uk-bath",
+          "name": "Bath",
+          "date": "Jun 2024",
+          "photos": [
+            {
+              "id": "bath-s24-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/bath/DSCF2552",
+              "alt": "Bath"
+            },
+            {
+              "id": "bath-s24-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/bath/DSCF2584",
+              "alt": "Bath"
+            }
+          ]
+        },
+        {
+          "id": "uk-belfast",
+          "name": "Belfast",
+          "date": "Jun 2024",
+          "photos": [
+            {
+              "id": "belfast-s24-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/belfast/DSCF2836",
+              "alt": "Belfast"
+            },
+            {
+              "id": "belfast-s24-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/belfast/DSCF2838",
+              "alt": "Belfast"
+            }
+          ]
+        },
+        {
+          "id": "uk-dark-hedges",
+          "name": "Dark Hedges",
+          "date": "Jul 2024",
+          "photos": [
+            {
+              "id": "darkhed-s24-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dark-hedges/DSCF2936",
+              "alt": "Dark Hedges"
+            },
+            {
+              "id": "darkhed-s24-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dark-hedges/IMG_6887",
+              "alt": "Dark Hedges"
+            }
+          ]
+        },
+        {
+          "id": "uk-giants-causeway",
+          "name": "Giant's Causeway",
+          "date": "Jul 2024",
+          "photos": [
+            {
+              "id": "giantscaus-s24-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/giants-causeway/DSCF3053",
+              "alt": "Giant's Causeway"
+            },
+            {
+              "id": "giantscaus-s24-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/giants-causeway/DSCF3004",
+              "alt": "Giant's Causeway"
+            },
+            {
+              "id": "giantscaus-s24-03",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/giants-causeway/DSCF2962",
+              "alt": "Giant's Causeway"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "macao",
+      "name": "Macao",
+      "country": "Macao",
+      "longitude": 113.5439,
+      "latitude": 22.1987,
+      "description": "Portuguese tiles and neon signs occupying the same block. A place that has always been two things at once.",
+      "camera": "Fujifilm X-T5",
+      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/macao/DSCF3437",
+      "last_photographed": "Dec 2024",
+      "visits": [
+        {
+          "id": "macao-winter-2024",
+          "name": "Winter 2024",
+          "date": "Dec 2024",
+          "photos": [
+            {
+              "id": "macao-w24-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/macao/DSCF3420",
+              "alt": "Macao"
+            },
+            {
+              "id": "macao-w24-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/macao/DSCF3437",
+              "alt": "Macao"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "country": "USA",
+      "longitude": -122.4194,
+      "latitude": 37.7749,
+      "description": "Fog rolling over the bridge, hills so steep you have to lean into them. A city that refuses to be ordinary.",
+      "camera": "Fujifilm X-T5",
+      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3810",
+      "last_photographed": "Feb 2025",
+      "visits": [
+        {
+          "id": "sf-winter-2025",
+          "name": "Winter 2025",
+          "date": "Feb 2025",
+          "photos": [
+            {
+              "id": "sf-w25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3753",
+              "alt": "San Francisco"
+            },
+            {
+              "id": "sf-w25-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3810",
+              "alt": "San Francisco"
+            },
+            {
+              "id": "sf-w25-03",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3833",
+              "alt": "San Francisco"
+            },
+            {
+              "id": "sf-w25-04",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3850",
+              "alt": "San Francisco"
+            },
+            {
+              "id": "sf-w25-05",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/IMG_9518",
+              "alt": "San Francisco"
+            },
+            {
+              "id": "sf-w25-06",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3901",
+              "alt": "San Francisco"
+            },
+            {
+              "id": "sf-w25-07",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3909",
+              "alt": "San Francisco"
+            },
+            {
+              "id": "sf-w25-08",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/san-francisco/DSCF3911",
+              "alt": "San Francisco"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "country": "Iceland",
+      "longitude": -19.0208,
+      "latitude": 64.9631,
+      "description": "A week driving the ring road — black sand beaches, basalt columns, boiling mud, glaciers. Iceland gives you everything at once and doesn't apologise for it.",
+      "camera": "Fujifilm X-T5",
+      "cover_photo": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/kirkjufell/DSCF7013",
+      "last_photographed": "Aug 2025",
+      "visits": [
+        {
+          "id": "iceland-vik",
+          "name": "Vík",
+          "date": "Aug 22, 2025",
+          "photos": [
+            {
+              "id": "vik-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/vik/IMG_2838",
+              "alt": "Vík, Iceland"
+            },
+            {
+              "id": "vik-s25-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/vik/IMG_2814",
+              "alt": "Southern Iceland"
+            }
+          ]
+        },
+        {
+          "id": "iceland-dc3",
+          "name": "DC-3 Wreck",
+          "date": "Aug 23, 2025",
+          "photos": [
+            {
+              "id": "dc3-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dc3-wreck/IMG_2877",
+              "alt": "DC-3 plane wreck on Sólheimasandur"
+            }
+          ]
+        },
+        {
+          "id": "iceland-loftsalahellir",
+          "name": "Loftsalahellir",
+          "date": "Aug 23, 2025",
+          "photos": [
+            {
+              "id": "lofts-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/loftsalahellir/DSCF5610",
+              "alt": "Loftsalahellir lava tube cave"
+            }
+          ]
+        },
+        {
+          "id": "iceland-dyrhólaey",
+          "name": "Dyrhólaey",
+          "date": "Aug 23, 2025",
+          "photos": [
+            {
+              "id": "dyrh-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/dyrh%C3%B3laey/DSCF5622",
+              "alt": "Dyrhólaey lighthouse"
+            }
+          ]
+        },
+        {
+          "id": "iceland-reynisfjara",
+          "name": "Reynisfjara",
+          "date": "Aug 23, 2025",
+          "photos": [
+            {
+              "id": "reyn-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/reynisfjara/DSCF5984",
+              "alt": "Reynisfjara black sand beach"
+            },
+            {
+              "id": "reyn-s25-02",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/reynisfjara/DSCF6000",
+              "alt": "Reynisfjara"
+            }
+          ]
+        },
+        {
+          "id": "iceland-diamond-beach",
+          "name": "Diamond Beach",
+          "date": "Aug 24, 2025",
+          "photos": [
+            {
+              "id": "diamond-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/diamond-beach/DSCF6197",
+              "alt": "Diamond Beach glacier ice on black sand"
+            }
+          ]
+        },
+        {
+          "id": "iceland-svartifoss",
+          "name": "Svartifoss",
+          "date": "Aug 24, 2025",
+          "photos": [
+            {
+              "id": "svart-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/svartifoss/DSCF6019",
+              "alt": "Svartifoss waterfall with basalt columns"
+            }
+          ]
+        },
+        {
+          "id": "iceland-studlagil",
+          "name": "Stuðlagil Canyon",
+          "date": "Aug 25, 2025",
+          "photos": [
+            {
+              "id": "studl-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/studlagil-canyon/DSCF6426",
+              "alt": "Stuðlagil Canyon"
+            }
+          ]
+        },
+        {
+          "id": "iceland-hverir",
+          "name": "Hverir",
+          "date": "Aug 25, 2025",
+          "photos": [
+            {
+              "id": "hverir-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/hverir/DSCF6746",
+              "alt": "Hverir geothermal area"
+            }
+          ]
+        },
+        {
+          "id": "iceland-hvitserkur",
+          "name": "Hvítserkur",
+          "date": "Aug 26, 2025",
+          "photos": [
+            {
+              "id": "hvits-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/hvitserkur/DSCF6905",
+              "alt": "Hvítserkur basalt rock formation"
+            }
+          ]
+        },
+        {
+          "id": "iceland-kirkjufell",
+          "name": "Kirkjufell",
+          "date": "Aug 26, 2025",
+          "photos": [
+            {
+              "id": "kirkj-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/kirkjufell/DSCF7013",
+              "alt": "Kirkjufell mountain"
+            }
+          ]
+        },
+        {
+          "id": "iceland-ingjaldshólskirkja",
+          "name": "Ingjaldshólskirkja",
+          "date": "Aug 27, 2025",
+          "photos": [
+            {
+              "id": "ingj-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/ingjaldsh%C3%B3lskirkja/DSCF7046",
+              "alt": "Ingjaldshólskirkja church"
+            }
+          ]
+        },
+        {
+          "id": "iceland-arnarstapi",
+          "name": "Arnarstapi",
+          "date": "Aug 27, 2025",
+          "photos": [
+            {
+              "id": "arnar-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/arnarstapi/DSCF7143",
+              "alt": "Arnarstapi lava coastline"
+            }
+          ]
+        },
+        {
+          "id": "iceland-bruarfoss",
+          "name": "Brúarfoss",
+          "date": "Aug 28, 2025",
+          "photos": [
+            {
+              "id": "bruar-s25-01",
+              "url": "https://res.cloudinary.com/dhjvcitdm/image/upload/f_auto,q_auto/photo-map/bruarfoss/DSCF7207",
+              "alt": "Brúarfoss blue waterfall"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

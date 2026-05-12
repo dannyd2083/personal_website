@@ -10,7 +10,7 @@ const PreviewCard = ({ place, selectedPhoto, onPhotoClick }) => {
 
     return (
         <div className="bg-clay-cream">
-            <div className="flex flex-col md:flex-row min-h-[280px]">
+            <div className="flex flex-col md:flex-row min-h-[420px]">
                 {/* Cover photo — click to open modal */}
                 <div
                     className="group relative w-full md:w-[45%] h-64 md:h-auto flex-shrink-0 cursor-zoom-in"

@@ -98,7 +98,6 @@ const PhotoMap = () => {
                 display: 'flex',
                 flexDirection: 'column',
                 height: isIdle ? (availableHeight ? `${availableHeight}px` : '100vh') : 'auto',
-                minHeight: '100vh',
                 overflow: isIdle ? 'hidden' : 'visible'
             }}
         >

@@ -39,7 +39,7 @@ const PreviewCard = ({ place, selectedPhoto, onPhotoClick }) => {
                     </div>
 
                     <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-clay-charcoal opacity-60">
-                        <span>{totalVisits} visit{totalVisits !== 1 ? 's' : ''} · {totalPhotos} photo{totalPhotos !== 1 ? 's' : ''}</span>
+                        <span>{totalVisits} location{totalVisits !== 1 ? 's' : ''} · {totalPhotos} photo{totalPhotos !== 1 ? 's' : ''}</span>
                         {place.last_photographed && (
                             <span>Last photographed: {place.last_photographed}</span>
                         )}

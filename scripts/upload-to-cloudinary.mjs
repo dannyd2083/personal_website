@@ -5,9 +5,9 @@ import { execSync } from 'child_process'
 import { tmpdir } from 'os'
 
 cloudinary.config({
-    cloud_name: 'dhjvcitdm',
-    api_key: '354125659558684',
-    api_secret: 'aGAs-RZqCPOz4ioRhP4wKHuxNy0',
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
 })
 
 const BASE = '/Users/dannydeng/Desktop/photo-map-upload'

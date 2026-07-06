@@ -17,6 +17,7 @@ const PreviewCard = ({ place, selectedPhoto, onPhotoClick }) => {
                     onClick={onPhotoClick}
                 >
                     <Image
+                        key={displayUrl}
                         src={displayUrl}
                         alt={selectedPhoto?.alt || place.name}
                         fill

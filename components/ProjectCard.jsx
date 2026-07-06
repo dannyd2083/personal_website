@@ -56,10 +56,6 @@ const ProjectCard = ({setSelected, project}) => {
                     viewport={{ once: true }}
                     whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
                     layoutId={`card-${project.id}`}
-                    onClick={() => {
-                        setSelected(project);
-                        setSwitch(!isSwitch);
-                    }}
         >
             <motion.div className="text-clay-charcoal"
                         variants={item}
@@ -74,9 +70,12 @@ const ProjectCard = ({setSelected, project}) => {
                             exit="exit"
                             className="min-h-[750px]"
                         >
-                            <div className="m-10 flex bottom-0 justify-center items-center bg-clay-court rounded-lg text-clay-cream font-Lato font-bold">
-                                Click the Card
-                            </div>
+                            <button
+                                onClick={() => setSwitch(true)}
+                                className="m-10 px-6 py-2 flex justify-center items-center mx-auto bg-clay-court rounded-lg text-clay-cream font-Lato font-bold hover:scale-110 hover:bg-clay-court-dark transition-all duration-200"
+                            >
+                                Detail
+                            </button>
 
                             {/* Icon-based design OR Image-based design */}
                             {project.useIconDesign ? (
@@ -104,7 +103,7 @@ const ProjectCard = ({setSelected, project}) => {
                             </div>
 
                             {project.url !=null ? (
-                                <a href = {project.url} >
+                                <a href = {project.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
                                     <AiFillGithub className="ml-5 hover:scale-125 ease-in duration-300" color={'#3e5233'} size={30}/>
                                 </a>
                             ) : (

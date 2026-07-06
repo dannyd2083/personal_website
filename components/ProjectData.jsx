@@ -12,7 +12,30 @@ import { TbShieldLock, TbTerminal2, TbNetwork, TbBug, TbChartBar } from 'react-i
 import { HiOutlineCodeBracket } from 'react-icons/hi2'
 
 export const projectList = [
-    // 2025 Projects (Most Recent)
+    // 2026 Projects (Most Recent)
+    {
+        id: 16,
+        title: "APEX — Autonomous Pentesting Agent",
+        description: "Autonomous penetration testing agent that runs end-to-end against real HackTheBox machines. Combines a coordinator-driven multi-agent loop, a three-class failure taxonomy with code-enforced loop detection, and two RAG systems. Solved 30/42 machines (71.4%).",
+        features: [
+            "Built a coordinator/recon/execute multi-agent loop where the coordinator reads command output before deciding the next action",
+            "Designed a 3-class failure taxonomy (script error / fixable / fundamental) with code-enforced loop detection to abandon dead-end approaches",
+            "Implemented two BM25 RAG systems: PayloadsRAG over PayloadsAllTheThings, and an Error Path RAG over past failures stored in Supabase for cross-run memory",
+            "Drove a Kali attack VM over an MCP server; achieved 81.5% on Easy and 53.3% on Medium HackTheBox machines"
+        ],
+        skills: [
+            "Python", "LLM Agents", "RAG", "MCP", "Supabase", "Penetration Testing"
+        ],
+        url: "https://github.com/dannyd2083/APEX",
+        category: "security",
+        date: "Jan 2026 – Apr 2026",
+        context: "Capstone Project",
+        useIconDesign: true,
+        icon: SiOpenai,
+        gradient: "from-slate-800 to-red-700"
+    },
+
+    // 2025 Projects
     {
         id: 0,
         title: "Threat Intelligence Dashboard",

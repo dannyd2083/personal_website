@@ -33,6 +33,24 @@ const Experience = () => {
         ]
     }
 
+    const SFU = {
+        title: "Master of Professional Computer Science, Cybersecurity",
+        subtitle: "Simon Fraser University",
+        date: "2024 – 2026",
+        bulletPoints: [
+            "Cybersecurity concentration: penetration testing, applied cryptography, malware analysis, and secure software design"
+        ]
+    }
+
+    const UBCEdu = {
+        title: "Bachelor of Science in Computer Science",
+        subtitle: "University of British Columbia",
+        date: "2018 – 2024",
+        bulletPoints: [
+            "Graduated with Distinction"
+        ]
+    }
+
 
     return (
         <div className="bg-clay-court-dark border-b-4 border-clay-cream min-h-screen py-16">
@@ -43,6 +61,12 @@ const Experience = () => {
                 <ExperienceCard {...UBC}/>
                     <ExperienceCard{...Semios}/>
                     <ExperienceCard{...Bluvec}/>
+                </div>
+
+                <h1 className="text-clay-cream text-5xl m-10 mt-20 font-AbrilFatface"> Education </h1>
+                <div className='grid grid-cols-1 gap-8 justify-center  align-middle'>
+                    <ExperienceCard {...SFU}/>
+                    <ExperienceCard {...UBCEdu}/>
                 </div>
             </div>
         </div>

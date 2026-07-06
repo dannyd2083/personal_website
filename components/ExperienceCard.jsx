@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion} from "framer-motion"
 
-const ExperienceCard = ({title,date,bulletPoints}) => {
+const ExperienceCard = ({title,subtitle,date,bulletPoints}) => {
     return (
         <motion.div  initial={{ opacity: 0 }}
                      whileInView={{ opacity: 1 }}
@@ -20,6 +20,7 @@ const ExperienceCard = ({title,date,bulletPoints}) => {
                 transition={{duration: 1}}
                 className= "grid columns-1 m-8">
                 <h1 className="font-AbrilFatface text-3xl text-clay-forest">{title}</h1>
+                {subtitle && <h2 className="text-2xl font-AbrilFatface text-clay-court-light">{subtitle}</h2>}
                 <h2 className="text-xl font-bold text-clay-court">{date}</h2>
                 <ul className = "list-disc list-inside text-xl">
                     {bulletPoints?.map((item,i) => <li key={i}>{item}</li>)}

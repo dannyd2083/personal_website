@@ -73,7 +73,11 @@ const MusicGrid = ({
                 </div>
             )}
 
-            {!loading && !error && (
+            {!loading && !error && items.length === 0 && (
+                <div className="text-center text-clay-dust">Nothing here yet — check back soon.</div>
+            )}
+
+            {!loading && !error && items.length > 0 && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                     {items.map((item, index) => (
                         <a 

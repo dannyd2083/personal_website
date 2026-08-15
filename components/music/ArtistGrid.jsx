@@ -28,7 +28,11 @@ const ArtistGrid = ({
                 </div>
             )}
 
-            {!loading && !error && (
+            {!loading && !error && items.length === 0 && (
+                <div className="text-center text-clay-dust">Nothing here yet — check back soon.</div>
+            )}
+
+            {!loading && !error && items.length > 0 && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {items.map((artist, index) => (
                         <a 

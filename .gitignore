@@ -42,3 +42,6 @@ docs/
 
 # claude project context
 CLAUDE.md
+
+# supabase CLI local link cache
+supabase/.temp/

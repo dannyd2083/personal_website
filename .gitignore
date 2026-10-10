@@ -45,3 +45,11 @@ CLAUDE.md
 
 # supabase CLI local link cache
 supabase/.temp/
+# supabase studio saved SQL snippets (local experiments)
+supabase/snippets/
+
+# webstorm database connection settings (per machine)
+.idea/dataSources*
+.idea/data_source_mapping.xml
+.idea/queries/
+.idea/sqldialects.xml

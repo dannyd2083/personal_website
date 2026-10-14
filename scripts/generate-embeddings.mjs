@@ -16,7 +16,7 @@ for(const photo of photos){
     const imageInputs = await processor(image)
     const {image_embeds} = await visionModel(imageInputs)
     const embedding = Array.from(image_embeds.data)
-    const { error: updateError } = await supabase.from('photos').update({ embedding }).eq('id', photo.id)
+    const { error: updateError } = await supabase.from('photos').update({ embedding, status:'published',error:null }).eq('id', photo.id)
     if (updateError) { console.error(`Failed: ${updateError.message}`) }
     else { console.log(`-- ${photo.id}`) }
 }
